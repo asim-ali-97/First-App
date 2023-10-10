@@ -6,7 +6,7 @@
         <p class="wal-para">Welcome to About page</p>
       </div>
 
-      <CustomMarquee />
+      <CustomMarquee title="About page " />
     </div>
   </div>
 </template>
@@ -31,7 +31,7 @@ export default {
 
 .about {
   padding-top: 40px;
-  padding-left: 60px;
+  padding-left: 40px;
   margin-bottom: 100px;
 }
 

@@ -2,15 +2,14 @@
   <div>
     <div class="topcontainer">
       <div class="contact">
-        <h2 style="font-size: 60px; color:#00DC82 ;">Contact</h2>
+        <h2 style="font-size: 60px; color: #00dc82">Contact</h2>
         <p class="wal-para">Welcome to Contact Us</p>
       </div>
     </div>
   </div>
 </template>
 
-<script>
-</script>
+<script></script>
 
 <style>
 .topcontainer {
@@ -18,12 +17,12 @@
   padding-left: 60px;
   height: 600px;
   color: white;
-  background-image: linear-gradient(180deg, #18181B, #323239)
+  background-image: linear-gradient(180deg, #18181b, #323239);
 }
 
 .contact {
   padding-top: 40px;
-  padding-left: 60px;
+  padding-left: 40px;
   margin-bottom: 100px;
 }
 .wal-para {
@@ -34,5 +33,4 @@
   padding-bottom: 10px;
   float: left;
 }
-
 </style>

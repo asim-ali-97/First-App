@@ -38,10 +38,15 @@
 <script>
 export default {
   name: "CustomMarquee",
-  data() {
-    return {
-      title: "About Page",
-    };
+  // data() {
+  //   return {
+  //     title: "About Page",
+  //   };
+  props: {
+    title: {
+      type: String,
+      default: "",
+    },
   },
 };
 </script>

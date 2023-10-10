@@ -3,7 +3,7 @@
     <nav class="nav">
       <div class="nav-left">
         <div class="logo">
-          <img src="logo.svg" alt="">
+          <img src="logo.svg" alt="" />
         </div>
       </div>
       <div class="header">
@@ -14,26 +14,28 @@
       </div>
       <div class="nav-right">
         <div class="icon">
-          <img class="git" src="github-line.svg" height="27px" width="27px" alt="">
+          <img
+            class="git"
+            src="github-line.svg"
+            height="27px"
+            width="27px"
+            alt=""
+          />
         </div>
       </div>
     </nav>
-
-
   </div>
 </template>
-  
-<script>
 
-</script>
-  
+<script></script>
+
 <style>
 .nav {
   width: 100%;
   height: 80px;
-  background-color: #18181B;
+  background-color: #18181b;
 }
-.icon{
+.icon {
   margin-right: 40px;
   margin-top: 20px;
   float: right;
@@ -42,7 +44,7 @@
   width: 30px;
   background-color: #fff;
 }
-.git{
+.git {
   margin-left: 1px;
   border-radius: 50%;
 }
@@ -73,6 +75,6 @@
 }
 
 .header-item:hover {
-  background-color: #515157;
+  color: #00dc82;
 }
 </style>

@@ -50,7 +50,7 @@
     </div>
 
     <!-- props -->
-    <CustomMarquee />
+    <CustomMarquee title="Home page " />
   </div>
 </template>
 
@@ -79,6 +79,21 @@ export default {
           name: "Muhib Arsalan",
           desc: "mhb Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laborum dolorum iste ex ab. Exercitationem.",
           image: "dev3.png",
+        },
+        {
+          name: "Arso Criesto",
+          desc: "arso Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laborum dolorum iste ex ab. Exercitationem.",
+          image: "dev3.png",
+        },
+        {
+          name: "Asam Bhai",
+          desc: "bhai Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laborum dolorum iste ex ab. Exercitationem.",
+          image: "dev2.png",
+        },
+        {
+          name: "John Cena",
+          desc: "jhn Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laborum dolorum iste ex ab. Exercitationem.",
+          image: "dev1.png",
         },
       ],
     };
@@ -140,14 +155,16 @@ h2 {
   margin-left: 5%;
   margin-top: 20px;
   margin-bottom: 150px;
-  height: 350px;
+  min-height: 350px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .dev-sub-sec {
   width: 32%;
   height: 350px;
+  margin-top: 20px;
   border-radius: 10px;
   background-color: #4b4b4f;
   overflow: hidden;
@@ -161,8 +178,6 @@ h2 {
   border-radius: 10px;
   width: 100%;
   height: 210px;
-  background-repeat: no-repeat;
-  background-size: 100% 210px;
 }
 .dev-name {
   padding-top: 10px;
