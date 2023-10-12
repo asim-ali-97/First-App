@@ -1,6 +1,6 @@
 <template>
   <div id="main-div">
-    <div class="topcontainer">
+    <div class="top-Hcontainer">
       <div class="topsubcon">
         <h2>The Intuitive Web Framework</h2>
         <p class="top-para">
@@ -106,7 +106,7 @@ export default {
   background-color: #323239;
 }
 
-.topcontainer {
+.top-Hcontainer {
   width: 100%;
   padding-left: 60px;
   height: 700px;

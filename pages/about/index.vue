@@ -1,6 +1,6 @@
 <template>
   <div id="main-div">
-    <div class="topcontainer">
+    <div class="top-Acontainer">
       <div class="about">
         <h2 style="font-size: 60px; color: #00dc82">About</h2>
         <p class="wal-para">Welcome to About page</p>
@@ -21,10 +21,10 @@ export default {
 </script>
 
 <style>
-.topcontainer {
+.top-Acontainer {
   width: 100%;
   padding-left: 60px;
-  height: 600px;
+  height: 800px;
   color: white;
   background-image: linear-gradient(180deg, #18181b, #323239);
 }

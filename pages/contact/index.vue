@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="topcontainer">
+    <div class="top-Ccontainer">
       <div class="contact">
         <h2 style="font-size: 60px; color: #00dc82">Contact</h2>
         <p class="wal-para">Welcome to Contact Us</p>
@@ -12,7 +12,7 @@
 <script></script>
 
 <style>
-.topcontainer {
+.top-Ccontainer {
   width: 100%;
   padding-left: 60px;
   height: 600px;
